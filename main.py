@@ -5,7 +5,7 @@ import cloud
 def main():
 
     # specify the name of the pdf. Ensure pdf is in same folder
-    path = 'constitution_of_india.pdf'
+    path = 'sent_items.pdf'
 
     # starting page. In this example, I am not considering the indices of
     # the book. Please remember this is zero indexed. So subtract 1 from the
@@ -25,7 +25,7 @@ def main():
     NUM_OF_WORDS = 250
 
     # Name of the image
-    image_file_name = 'constitution_example'
+    image_file_name = 'emails_sent'
 
     # If you want to exclude certain words from the cloud,
     # you can add them as a new line to the file stopwords.txt
